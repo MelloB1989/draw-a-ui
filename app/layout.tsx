@@ -21,6 +21,12 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
+         {/* Favicon */}
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://au-spot.s3.ap-south-1.amazonaws.com/assets/logos/nvai/Noobsverse.png"
+  />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
